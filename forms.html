@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            border-radius: 5px;
+            border-style: wave;
+
+        }
+        .contact-form label{
+            text-decoration: brown ;
+        }
+
+      .contact-form input,
+      .contact-form textarea {
+            width: 30%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+       }
+      .contact-form textarea{
+          width: 50%;
+          height: 100px;
+          box-sizing: border-box;
+           margin-bottom: 15px;
+      }
+      .contact-form button{
+          background-color: steelblue;
+          border-radius: 10px;
+          width: 80px;
+          cursor: pointer;
+      }
+      .contact-form button:hover {
+            background-color: cyan;
+      }
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+     <form class="contact-form">
+         <label for="">Name</label><br>
+         <input type="text" placeholder="Name" required><br><br>
+
+         <label for="">Email</label><br>
+         <input type="email" placeholder=" Email" required><br><br>
+
+         <label for="">Tel.no</label><br>
+         <input type="number" placeholder="Tel.no" reuired><br><br>
+
+         <label for="">Password</label><br>
+         <input type="password" placeholder="Password"required><br><br>
+
+         <label for="">Upload CV</label><br>
+         <input type="file"><br><br>
+
+         <label for="">Gender</label>
+         <select name="" id="" required>
+             <option value="" selected>Select gender</option>
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+         </select><br><br>
+
+         <textarea name=""  placeholder="Message" required></textarea><br><br>
+
+         <button>send message</button><br><br>
+
+
+         
+     </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
